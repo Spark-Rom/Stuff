@@ -62,7 +62,11 @@ If your device has an AMOLED screen, it is recommended to set this in overlay/fr
 >>       <!-- If true, the display will be shifted around in ambient mode. -->
 >>       <bool name="config_enableBurnInProtection">true</bool>
 
-#
+# User icon in Settings Homepage
+
+If clicking on this specific icon makes settings crash you need to enable multiuser support
+
+>> Follow this commit as reference [**reference**](https://github.com/Spark-Devices/device-xiaomi-davinci/commit/7e65aa287716329988db45348d602ccbf890e209)
 
 # Warp / Dash / VOOC fast charging
 
@@ -88,4 +92,7 @@ To mark your build as official, set this in your spark_device.mk:
 
 >>        SPARK_BUILD_TYPE := OFFICIAL
 
-Then navigate to vendor/spark/spark.devices add your device codename and make a pull request to github
+You will also need to add your maintainer name on your dt. All you need to do is add this line on your system.prop or product.prop
+>>        ro.spark.maintainer=your maintainer name
+
+Then navigate to vendor/spark/spark.devices add your device codename and make a pull request to [**github**](https://github.com/Spark-Rom)
