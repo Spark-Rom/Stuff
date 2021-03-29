@@ -25,7 +25,7 @@ You can overlay the maximum visible system icons by adding this in overlay/frame
 
  # Gapps
 
-After lunching your build, you can do this to build GApps with the ROM:
+After lunching your build, you can do this to build GApps with the ROM or add this on your spark_device.mk:
 
 >>        export WITH_GAPPS=true
 
@@ -37,7 +37,7 @@ In order to enable the FOD HAL, you have to set this in overlay/frameworks/base/
 >>        <!-- Shows the required view for in-display fingerprint -->
 >>        <bool name="config_needCustomFODView>true</bool>
 
-In order to enable fod animations you can do this after lunching your build
+In order to enable fod animations you can do this after lunching your build or adding it in your spark_device.mk 
 
 >>        export WITH_FOD_ANIMATIONS=true
 
