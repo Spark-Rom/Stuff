@@ -108,6 +108,11 @@ If you want to enable face unlock you need to add this to your spark_device.mk
 
 >>         TARGET_FACE_UNLOCK_SUPPORTED := true
 
+If your device has a pop up camera and you want camera to open only on Security view  you might also want to set this overlay in overlay/frameworks/base/core/res/res/values/config.xml
+
+>>         <!-- Face unlock -->
+>>         <bool name="config_faceAuthOnlyOnSecurityView">true</bool>
+
 # Official status
 
 To mark your build as official, set this in your spark_device.mk:
