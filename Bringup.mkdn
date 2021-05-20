@@ -16,6 +16,15 @@ If it doesn't, then set this in spark_device.mk:
 >>        # Inherit some common Spark stuff.   
 >>        $(call inherit-product, vendor/spark/config/common.mk)
 
+# BOARD_PLATFORM
+
+Before starting to build spark make sure tou have these on your device.mk
+
+>>        PRODUCT_BOARD_PLATFORM := Your Board platform // Example sm6150
+>>        PRODUCT_USES_QCOM_HARDWARE := true/false
+
+Sample commit [**here**](https://github.com/Spark-Devices/device_xiaomi_davinci/commit/a58a3b889ec3237da24e0653a7eafdf5c499e1a6#diff-247ee86229a709a6e2eedfc1d3c4a557825aee073e20b0112ab76f4ca8e4bc4e)
+
 
 # SystemUI
 
