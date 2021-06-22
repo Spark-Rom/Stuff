@@ -1,0 +1,74 @@
+[ROM][11.0][OFFICIAL]Spark OS v5.x [device_code]
+
+[CENTER][IMG width="450px"]https://raw.githubusercontent.com/Spark-Rom/Stuff/fire/assets/logo.png[/IMG]
+[I][B][SIZE="7"]Spark OS v5.x [/SIZE][/B][/I]
+
+[CODE]/* Your warranty is now void.
+*
+* I am not responsible for bricked devices, dead SD cards,
+* thermonuclear war, or you getting fired because the alarm app failed. Please
+* do some research if you have any concerns about features included in this ROM
+* before flashing it! YOU are choosing to make these modifications, and if
+* you point the finger at me for messing up your device, I will laugh at you.
+*/[/CODE]
+
+
+ [IMG="about"]https://raw.githubusercontent.com/Spark-Rom/Stuff/fire/assets/about.png[/IMG]
+
+ [B][INDENT]AOSP based rom with customization focused on stability and most of all smoothness.[/INDENT][/B]
+
+[SIZE=4][B][U]What works?[/U][/B][/SIZE]
+Almost everything
+
+[SIZE=4][B][U]What's broken?[/U][/B][/SIZE]
+**Include Device Specific Issues here**
+You tell me!
+
+[IMG="install"]https://raw.githubusercontent.com/Spark-Rom/Stuff/fire/assets/installation.png[/IMG]
+
+Reboot to recovery
+Wipe data, cache, and dalvik if coming from another ROM
+Flash ROM zip
+(optional) Flash GApps (for vanilla builds)
+(optional) Flash Magisk (root)
+Format data if encrypted
+Reboot and voila!
+
+[B][U]Upgrading to a Newer Build[/U][/B]
+Reboot to recovery
+Wipe cache and dalvik
+Flash ROM zip
+(optional) Flash Magisk
+Reboot and voila!
+
+
+[IMG="download"]https://raw.githubusercontent.com/Spark-Rom/Stuff/fire/assets/downloads.png[/IMG]
+[B][SIZE="5"][URL="https://www.spark-os.live"]ROM Download[/URL][/SIZE][/B]
+[B][SIZE="5"][URL="https://github.com/topjohnwu/Magisk/releases"]Magisk[/URL][/SIZE][/B]
+[B][SIZE="5"][URL="https://nikgapps.com/downloads"]NikGApps[/URL][/SIZE][/B]
+
+[IMG="source"]https://raw.githubusercontent.com/Spark-Rom/Stuff/fire/assets/source.png[/IMG]
+
+[SIZE="3"][B][URL="https://github.com/Spark-Rom"]Spark OS Source[/URL]
+[URL="https://github.com/Spark-Devices"]Device Specific Trees[/URL][/B][/SIZE]
+
+[B]Join our Telegram channel : [url]https://t.me/SparkOSCommunity[/url][/B][/CENTER]
+
+[B]Spark OS, ROM for codename[/B]
+[B]Device:[/B] Codename of your device
+[B]Maintainer:[/B] Your-Name
+[B]Build Type:[/B] Unofficial/Official
+
+[B][U]Contributors[/U][/B]
+ABC
+XYZ
+
+[B]ROM OS Version:[/B] 11.0
+[B]ROM Kernel:[/B] Linux X.X
+[B]ROM Firmware Required:[/B] Must be on Latest Firmware
+
+[B][U]Version Information[/U][/B]
+[B]Status:[/B] Stable/Testing
+[B]Current Stable Version:[/B] 5.x
+[B]SELinux Status:[/B] Enforced/Permissive
+[B]Release Date:[/B] 202X-Month-Day[/SIZE]
