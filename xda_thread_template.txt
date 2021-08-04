@@ -1,7 +1,7 @@
-[ROM][11.0][OFFICIAL]Spark OS v5.x [device_code]
+[ROM][11.0][OFFICIAL]Spark OS v7.x [device_code]
 
 [CENTER][IMG width="450px"]https://raw.githubusercontent.com/Spark-Rom/Stuff/fire/assets/logo.png[/IMG]
-[I][B][SIZE="7"]Spark OS v5.x [/SIZE][/B][/I]
+[I][B][SIZE="7"]Spark OS v7.x [/SIZE][/B][/I]
 
 [CODE]/* Your warranty is now void.
 *
@@ -69,6 +69,6 @@ XYZ
 
 [B][U]Version Information[/U][/B]
 [B]Status:[/B] Stable/Testing
-[B]Current Stable Version:[/B] 5.x
+[B]Current Stable Version:[/B] 7.x
 [B]SELinux Status:[/B] Enforced/Permissive
 [B]Release Date:[/B] 202X-Month-Day[/SIZE]
